@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "ekrafdata": [
     {
 			"id": 1,
 			"nama_pemilik": "Ikkon",
@@ -100,12 +100,5 @@
 			"harga": "200,000.00",
 			"kontak": "-"
 		}
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
