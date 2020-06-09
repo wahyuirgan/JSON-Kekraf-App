@@ -1,8 +1,105 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+			"id": 1,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Angsana",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Aksesoris/angsana.png?token=AIY3FSTNJKXNGBZI3TWTZRK65AHXI",
+			"kategori_produk": "Aksesoris",
+			"deskripsi_produk": "Kalung tidak lepas dari untaian perhiasan yang harus dikenakan oleh pengantin. Terinspirasi dari bentuk perhiasan Melayu, gulungan benang tak berbentuk ditelurkan menjadi kalung yang elok menawan.",
+			"harga": "220,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 2,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Angsana",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/angsana.png?token=AIY3FSVZN2E35ENEOGE3GM265AJAG",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Gasing adalah mainan khas masyarakat Melayu yang masih dimainkan hingga sekarang. Agar mudah dibawa, lahirlah kantong untuk membungkus gasing.",
+			"harga": "120.000,00",
+			"kontak": "-"
+		},
+		{
+			"id": 3,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Aur Bilis 01",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aurbilissatu.png?token=AIY3FSXH3EWMDOJBPJTQQCK65AJNY",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Komposisi motif yang tertuang merupakan representasi masyarakat Tanjungpinang yang mudah bergaul dengan berbagai kalangan.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 4,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Aur Bilis 03",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aurbilistiga.png?token=AIY3FSU2C77HYMRMBUZBBJK65AK6W",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Komposisi motif yang tertuang merupakan representasi masyarakat Tanjungpinang yang mudah bergaul dengan berbagai kalangan.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 5,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Aur Bilis 04",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aurbilisempat.png?token=AIY3FSXYJY3S45VXVQ7LZ6S65ALO4",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Komposisi motif yang tertuang merupakan representasi masyarakat Tanjungpinang yang mudah bergaul dengan berbagai kalangan.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 6,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Aur Sa 01",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aursasatu.png?token=AIY3FSTNHXOSI76EGJKBONS65ALYW",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Motif yang tertuang merupakan representasi masyarakat Tanjungpinang yang mudah bergaul dengan berbagai kalangan.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 7,
+			"nama_pemilik": "Batuah Batik",
+			"nama_produk": "Aur Sa 02",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aursadua.png?token=AIY3FSQGQSRFUNUGTU3APXS65AMRY",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Motif yang tertuang merupakan representasi masyarakat Tanjungpinang yang mudah bergaul dengan berbagai kalangan.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 8,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Aur Sirih",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aursirih.png?token=AIY3FSSZCKSYJ3BHP4XAV2S65AMZW",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Sirih sebagai sarana pergaulan masyarakat Melayu dituangkan dalam motif produk ini.",
+			"harga": "130,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 9,
+			"nama_pemilik": "Maryati Rajut",
+			"nama_produk": "Baiduri",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Aksesoris/baiduri.png?token=AIY3FSUPFVXLAFGEFOMLNT265ANEI",
+			"kategori_produk": "Aksesoris",
+			"deskripsi_produk": "Kekayaan batu bauksit yang berserak menginspirasi karya ini sebagai ekspresi adanya permata di Tanjungpinang.",
+			"harga": "140,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 10,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bakawali 01",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bakawalisatu.png?token=AIY3FSU55CFUZQWLTUWOJGC65AQDG",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Terinspirasi dari makna tanjak dan peci (penutup kepala) yang bertujuan untuk melindungi isi kepala dari prasangka dan pikiran yang buruk.",
+			"harga": "200,000.00",
+			"kontak": "-"
+		}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
