@@ -1,14 +1,665 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+	"status": true,
+	"ekrafdata": [
+		{
+			"id": 1,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Angsana",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Aksesoris/angsana.png?token=AIY3FSTNJKXNGBZI3TWTZRK65AHXI",
+			"kategori_produk": "Aksesoris",
+			"deskripsi_produk": "Kalung tidak lepas dari untaian perhiasan yang harus dikenakan oleh pengantin. Terinspirasi dari bentuk perhiasan Melayu, gulungan benang tak berbentuk ditelurkan menjadi kalung yang elok menawan.",
+			"harga": "220,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 2,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Angsana",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/angsana.png?token=AIY3FSVZN2E35ENEOGE3GM265AJAG",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Gasing adalah mainan khas masyarakat Melayu yang masih dimainkan hingga sekarang. Agar mudah dibawa, lahirlah kantong untuk membungkus gasing.",
+			"harga": "120.000,00",
+			"kontak": "-"
+		},
+		{
+			"id": 3,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Aur Bilis 01",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aurbilissatu.png?token=AIY3FSXH3EWMDOJBPJTQQCK65AJNY",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Komposisi motif yang tertuang merupakan representasi masyarakat Tanjungpinang yang mudah bergaul dengan berbagai kalangan.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 4,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Aur Bilis 03",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aurbilistiga.png?token=AIY3FSU2C77HYMRMBUZBBJK65AK6W",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Komposisi motif yang tertuang merupakan representasi masyarakat Tanjungpinang yang mudah bergaul dengan berbagai kalangan.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 5,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Aur Bilis 04",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aurbilisempat.png?token=AIY3FSXYJY3S45VXVQ7LZ6S65ALO4",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Komposisi motif yang tertuang merupakan representasi masyarakat Tanjungpinang yang mudah bergaul dengan berbagai kalangan.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 6,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Aur Sa 01",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aursasatu.png?token=AIY3FSTNHXOSI76EGJKBONS65ALYW",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Motif yang tertuang merupakan representasi masyarakat Tanjungpinang yang mudah bergaul dengan berbagai kalangan.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 7,
+			"nama_pemilik": "Batuah Batik",
+			"nama_produk": "Aur Sa 02",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aursadua.png?token=AIY3FSQGQSRFUNUGTU3APXS65AMRY",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Motif yang tertuang merupakan representasi masyarakat Tanjungpinang yang mudah bergaul dengan berbagai kalangan.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 8,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Aur Sirih",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/aursirih.png?token=AIY3FSSZCKSYJ3BHP4XAV2S65AMZW",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Sirih sebagai sarana pergaulan masyarakat Melayu dituangkan dalam motif produk ini.",
+			"harga": "130,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 9,
+			"nama_pemilik": "Maryati Rajut",
+			"nama_produk": "Baiduri",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Aksesoris/baiduri.png?token=AIY3FSUPFVXLAFGEFOMLNT265ANEI",
+			"kategori_produk": "Aksesoris",
+			"deskripsi_produk": "Kekayaan batu bauksit yang berserak menginspirasi karya ini sebagai ekspresi adanya permata di Tanjungpinang.",
+			"harga": "140,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 10,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bakawali 01",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bakawalisatu.png?token=AIY3FSU55CFUZQWLTUWOJGC65AQDG",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Terinspirasi dari makna tanjak dan peci (penutup kepala) yang bertujuan untuk melindungi isi kepala dari prasangka dan pikiran yang buruk.",
+			"harga": "200,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 11,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bakawali 02",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bakawalidua.png?token=AIY3FSTCFFTFWKN5R7CHPVC65AR24",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Terinspirasi dari makna tanjak dan peci (penutup kepala) yang bertujuan untuk melindungi isi kepala dari prasangka dan pikiran yang buruk.",
+			"harga": "150,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 12,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bakawali 03",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bakawalitiga.png?token=AIY3FSXP2CA43AKH6QRP3ZC65AR5K",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Terinspirasi dari makna tanjak dan peci (penutup kepala) yang bertujuan untuk melindungi isi kepala dari prasangka dan pikiran yang buruk.",
+			"harga": "150,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 13,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bakawali 04",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bakawaliempat.png?token=AIY3FSQF3LDBP7EP3UOVGAK65AT7C",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Terinspirasi dari makna tanjak dan peci (penutup kepala) yang bertujuan untuk melindungi isi kepala dari prasangka dan pikiran yang buruk.",
+			"harga": "130,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 14,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bakawali 05",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bakawalilima.png?token=AIY3FSWBF264YOFWH2MORAS65AUB4",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Terinspirasi dari makna tanjak dan peci (penutup kepala) yang bertujuan untuk melindungi isi kepala dari prasangka dan pikiran yang buruk.",
+			"harga": "130.000,00",
+			"kontak": "-"
+		},
+		{
+			"id": 15,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bakawali 06",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bakawalienam.png?token=AIY3FSWJ27B3GGSX4IVOQS265AUE2",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Terinspirasi dari makna tanjak dan peci (penutup kepala) yang bertujuan untuk melindungi isi kepala dari prasangka dan pikiran yang buruk.",
+			"harga": "150,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 16,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bekarang",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Aksesoris/bekarang.png?token=AIY3FSWEDKLTR7VQONJD2DC65BQ66",
+			"kategori_produk": "Aksesoris",
+			"deskripsi_produk": "Gonggong adalah biota endemik di Tanjungpinang, potongan limbah cangkang gonggong disematkan dalam produk sebagai representasi kekayaan bahari Tanjungpinang",
+			"harga": "115,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 17,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Belayar",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/belayar.png?token=AIY3FSWJKQ7Q2GYUVKXKL7S65BQVM",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Terinspirasi dari budaya pelayaran masyarakat Tanjungpinang yang membawanya menjelajah dunia.",
+			"harga": "180,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 18,
+			"nama_pemilik": "Maryati Rajut",
+			"nama_produk": "Berawan Suja",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Aksesoris/berawansuja.png?token=AIY3FSRNLMHN4BARESUSEB265BRLE",
+			"kategori_produk": "Aksesoris",
+			"deskripsi_produk": "Merisik adalah bagian adat perkawinan dalam budaya Melayu yaitu mengumpulkan informasi sebelum meminang dara Melayu. Terinspirasi dari aktivitas ini, lahirlah karya yang menggali kekayaan bahari di Kepulauan Riau. ",
+			"harga": "120,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 19,
+			"nama_pemilik": "Fauzta Edukids",
+			"nama_produk": "Berhidang",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/berhidang.png?token=AIY3FSWTV3THTQOEWEMT3H265BR7K",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Budaya menjamu makan untuk tamu bagi masyarakat Melayu di Tanjungpinang adalah suatu keharusan. ",
+			"harga": "180,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 20,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bidai 01",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bidaisatu.png?token=AIY3FSRA4U2NERYLL47ZFLC65BSKI",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Terinspirasi dari makna tanjak dan peci (penutup kepala) yang bertujuan untuk melindungi isi kepala dari prasangka dan pikiran yang buruk.",
+			"harga": "65,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 21,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bidai 02",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bidaidua.png?token=AIY3FSXRRCN2ZRSDBKRR2SC65BSW4",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Terinspirasi dari makna tanjak dan peci (penutup kepala) yang bertujuan untuk melindungi isi kepala dari prasangka dan pikiran yang buruk.",
+			"harga": "65,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 22,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Bidai 03",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bidaitiga.png?token=AIY3FSVIFGNTCNNBC66UK3K65BSYG",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Terinspirasi dari makna tanjak dan peci (penutup kepala) yang bertujuan untuk melindungi isi kepala dari prasangka dan pikiran yang buruk.",
+			"harga": "65,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 23,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Blus Bauksit Suja",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/blusbauksitsuja.png?token=AIY3FSXBG7VHOT7AIDOX6PS65BTDM",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Koleksi ini terinspirasi dari baju kurung yang merepresentasikan masyarakat yang menjunjung tinggi intelektualitas",
+			"harga": "380,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 24,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Blus Kunyit Suja",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/bluskunyitsuja.png?token=AIY3FSWYWPITDRFJVFPXH5K65BTK2",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Koleksi ini terinspirasi dari baju kurung yang merepresentasikan masyarakat yang menjunjung tinggi intelektualitas",
+			"harga": "407,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 25,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Gelugut 01",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/gelugutsatu.png?token=AIY3FSQOXHOTMIDPWLCA2DC65BUJK",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Suasana yang ada di Tanjungpinang sangat menyejukkan hingga membuat siapapun betah berkunjung.",
+			"harga": "300,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 26,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Gelugut 02",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/gelugutdua.png?token=AIY3FST6WHYQLWNQ5T6BDJK65BUPY",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Suasana yang ada di Tanjungpinang sangat menyejukkan hingga membuat siapapun betah berkunjung.",
+			"harga": "325,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 27,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Kemeja Bauksit Suja",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/kemejabauksitsuja.png?token=AIY3FSWTQMXGYSS72SBUQN265BUWO",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Koleksi ini terinspirasi dari baju kurung yang merepresentasikan masyarakat yang menjunjung tinggi intelektualitas.",
+			"harga": "385,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 28,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Kemeja Berawan Suja",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/kemejaberawansuja.png?token=AIY3FSXXPZQQIJQFI3EJ33S65BU34",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Koleksi ini terinspirasi dari baju kurung yang merepresentasikan masyarakat yang menjunjung tinggi intelektualitas.",
+			"harga": "385,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 29,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Kemeja Buih Suja",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/kemejabuihsuja.png?token=AIY3FSSN7V5KDH5HRZYHNUS65BVJO",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Koleksi ini terinspirasi dari baju kurung yang merepresentasikan masyarakat yang menjunjung tinggi intelektualitas.",
+			"harga": "385,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 30,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Kemeja Sorai Suja",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/kemejasoraisuja.png?token=AIY3FSXC4BNVVEHSTKAGAYC65BVPE",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Koleksi ini terinspirasi dari baju kurung yang merepresentasikan masyarakat yang menjunjung tinggi intelektualitas.",
+			"harga": "425,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 31,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Kilau Nipa 01",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/kilaunipasatu.png?token=AIY3FSQPEDBYBNG5FS7AQO265BX64",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Diambil dari nama pulau terluar di Kepulauan Riau yang terancam terbenam. Produk ini terinspirasi dari masyarakatnya yang membenamkan diri dalam pencarian ilmu.",
+			"harga": "385,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 32,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Kilau Nipa 02",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/kilaunipadua.png?token=AIY3FSW7SBEN5GKKJCVOECS65BX7S",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Diambil dari nama pulau terluar di Kepulauan Riau yang terancam terbenam. Produk ini terinspirasi dari masyarakatnya yang membenamkan diri dalam pencarian ilmu.",
+			"harga": "385,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 33,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Mesta 01",
+			"foto_produk": "",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Mengadaptasi motif tampuk manggis, representasi dari kemapanan ilmu astronomi masyarakat Kepulauan Riau",
+			"harga": "198,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 34,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Mesta 02",
+			"foto_produk": "",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Mengadaptasi motif tampuk manggis, representasi dari kemapanan ilmu astronomi masyarakat Kepulauan Riau",
+			"harga": "198,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 35,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Mesta 03",
+			"foto_produk": "",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Putri Nongsa adalah nama pulau yang menjadi jalur perdagangan tersibuk di Kepulauan Riau. Nama ini menjadi representasi kejayaan pelayaran Tanjungpinang tempo dulu sebagai pusat perdagangan.",
+			"harga": "198,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 36,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Ombak Nipa",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/ombaknipa.png?token=AIY3FSS3SIYZCEBINPW3FFK65B4CW",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Nipa adalah nama pulau terluar di Kepulauan Riau yang terancam terbenam. Produk ini terinspirasi dari masyarakatnya yang membenamkan diri dalam pencarian ilmu.",
+			"harga": "300,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 37,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Pulai Handbag",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Aksesoris/pulaihandbag.png?token=AIY3FSUXQMLSCC5K64A5GCC65B4S6",
+			"kategori_produk": "Aksesoris",
+			"deskripsi_produk": "Terinspirasi dari tekstur kayu yang lembut menelurkan produk yang nyaman digenggam.",
+			"harga": "325,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 38,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Putri Nongsa",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Tekstil/putrinongsasatu.png?token=AIY3FSVV3QKSS63DBGTWPLC65B5CQ",
+			"kategori_produk": "Tekstil",
+			"deskripsi_produk": "Semarak budaya masyarakat Tanjungpinang yang penuh dengan hiruk pikuk kehidupan perdagangan menginspirasi lahirnya motif ini.",
+			"harga": "220,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 39,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Putri Nongsa",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Tekstil/putrinongsadua.png?token=AIY3FSRZXFSCIBCGTHXUE4K65B5DI",
+			"kategori_produk": "Tekstil",
+			"deskripsi_produk": "Laut sebagai pengantar para pedagang merapatkan kapalnya di Tanjungpinang. Interaksi budaya dibangun antar bangsa di dalamnya sehingga melahirkan budaya yang kaya.",
+			"harga": "220,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 40,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Rumpun",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/rumpun.png?token=AIY3FSVG7N4RVMFLSEN3JHS65CAGG",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Kehidupan multi etnis di Tanjungpinang yang aman dan damai hidup berdampingan menginspirasi lahirnya produk ini.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 41,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Sanding",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Aksesoris/sandingsatu.png?token=AIY3FSVMGAUIKCIU4RV5O4K65CBEG",
+			"kategori_produk": "Aksesoris",
+			"deskripsi_produk": "Terinspirasi dari kehidupan yang rukun bersandingan satu sama lain dalam masyarakat Tanjungpinang, koleksi ini memadukan dua macam bahan dan teknik. ",
+			"harga": "310,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 42,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Sanding",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Aksesoris/sandingdua.png?token=AIY3FSVQ3VTGPSRNC4QLZA265CBEQ",
+			"kategori_produk": "Aksesoris",
+			"deskripsi_produk": "Terinspirasi dari kehidupan yang rukun bersandingan satu sama lain dalam masyarakat Tanjungpinang, koleksi ini memadukan berbagai macam bahan dan teknik untuk satu kesatuan.",
+			"harga": "370,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 43,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Santigi",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/santigi.png?token=AIY3FSR5FD4ZMSN5Z6LBFLC65CBOY",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Suasana yang ada di Tanjungpinang sangat menyejukkan hingga membuat siapapun betah berkunjung.",
+			"harga": "325,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 44,
+			"nama_pemilik": "Dpallet",
+			"nama_produk": "Segak Armchair",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/segakarmchair.png?token=AIY3FSXCABDY2ZY2YSO72AS65CDHK",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Jalinan yang sudah dibangun masyarkat multietnis Tanjungpinang yang saling menguatkan menginspirasi lahirnya karya ini",
+			"harga": "960,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 45,
+			"nama_pemilik": "Dpallet",
+			"nama_produk": "Segak Stool",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/segakstool.png?token=AIY3FSRKFL6KZW2PEEJUEWC65CDJS",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Masyarakat Tanjungpinang tetap kokoh berdiri menghadang seluruh percampuran yang datang melalui perdagangan laut.",
+			"harga": "720,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 46,
+			"nama_pemilik": "Dpallet",
+			"nama_produk": "Segak Table",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/segaktable.png?token=AIY3FSQXW6C4XMKSG5LNOK265CDP2",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Masyarakat Tanjungpinang tetap kokoh berdiri menghadang seluruh percampuran yang datang melalui perdagangan laut.",
+			"harga": "880,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 47,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Sei Clutch",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Aksesoris/seiclutch.png?token=AIY3FSVXA55RH4GINVER7V265CD2O",
+			"kategori_produk": "Aksesoris",
+			"deskripsi_produk": "Riak-riak ombak air laut Tanjung Setumu yang mengalir tenang menginspirasi bentuk dan ornamen produk yang memanfaatkan limbah industri furniture di Tanjungpinang.",
+			"harga": "780,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 48,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Selesa Bed Runner",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/selesabedrunner.png?token=AIY3FSVEQ4XBQSAFWN3HZFK65CH6U",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Motif berasal dari aksara sa dalam aksara Melayu kuno yang tersemat mencitrakan masyarakat Tanjungpinang yang gagah berani mengarungi luasnya samudra tanpa gentar. ",
+			"harga": "210,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 49,
+			"nama_pemilik": "Batik Betuah",
+			"nama_produk": "Selesa Pillow 1",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/selesapillowsatu.png?token=AIY3FSSK7P5SJF6FY3S47GK65CINK",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Kenyamanan yang dipancarkan oleh masyarakat Tanjungpinang menginspirasi lahirnya produk ini.",
+			"harga": "280,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 50,
+			"nama_pemilik": "Fauzta Edukids",
+			"nama_produk": "Selesa Throw Pillow 1",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/selesathrowpillowsatu.png?token=AIY3FST52AD63XRBHKE7GQS65CO3Y",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Kenyamanan yang dipancarkan oleh masyarakat Tanjungpinang menginspirasi lahirnya produk ini. Motif bilis disematkan dalam produk ini sebagai simbol ikan bilis adalah komoditas ekspor utama Tanjungpinang.",
+			"harga": "240,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 51,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Selesa Throw Pillow 2",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/selesathrowpillowdua.png?token=AIY3FSTKRGOK6JESMISOUIS65CO4W",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Motif berasal dari aksara sa dalam aksara Melayu kuno yang tersemat mencitrakan masyarakat Tanjungpinang yang gagah berani mengarungi luasnya samudra tanpa gentar.",
+			"harga": "280,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 52,
+			"nama_pemilik": "Dekranasda",
+			"nama_produk": "Senua Bookshelves",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/senuabookshelves.png?token=AIY3FSVEM2QZDL3E6ELOMG265DMMU",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Senua adalah nama pulau terluar di Kepulauan Riau yang memiliki makna dua menjadi satu,  sesuai dengan produk ini yang menggabungkan dua material menjadi satu.",
+			"harga": "480,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 53,
+			"nama_pemilik": "Ijay Meubeler, Bu Atin",
+			"nama_produk": "Senua Divider",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/senuadivider.png?token=AIY3FSWNCGLZ5INXKKTKGQ265DM3S",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Jalinan yang sudah dibangun masyarkat multietnis Tanjungpinang yang saling menguatkan menginspirasi lahirnya karya ini.",
+			"harga": "820,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 54,
+			"nama_pemilik": "Ijay Meubeler",
+			"nama_produk": "Senua Wardrobe",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/senuawardrobe.png?token=AIY3FSVF4W2BPV2E24U7J5S65DNDE",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Polong adalah bagian bawah rumah masyarakat Melayu yang digunakan untuk menyimpan barang. Terinspirasi dari polong, lahirlah bentuk almari yang memiliki rongga di bawah dan diatasnya.",
+			"harga": "1,100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 55,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Sepiak 01",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/sepiaksatu.png?token=AIY3FSUVEIFTAEFHNNBUWA265DNXM",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Tanjungpinang adalah sepotong (sepiak) wilayah di Indonesia yang memiliki kekayaan bahari yang cukup memikat.",
+			"harga": "278,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 56,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Sepiak 02",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/sepiakdua.png?token=AIY3FSW2E6HKSFBOWJBTB5265DNX2",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Koleksi ini terinspirasi dari baju kurung yang merepresentasikan masyarakat yang menjunjung tinggi intelektualitas.",
+			"harga": "280,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 57,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Sepiak 03",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/sepiaktiga.png?token=AIY3FSTC6DTXW7EXAUP465C65DNYC",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Deburan ombak yang membelai pasir Pantai Tanjung Siambang menginspirasi munculnya motif dari teknik tie dye dalam baju ini.",
+			"harga": "270,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 58,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Sepiak 04",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/sepiakempat.png?token=AIY3FSTKVGCKCZB7VHNOCFS65DNZA",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Tanjungpinang adalah sepotong (sepiak) wilayah di Indonesia yang memiliki kekayaan bahari yang cukup memikat.",
+			"harga": "270,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 59,
+			"nama_pemilik": "Dekranasda, Batik Betuah, Fauzta Edukids",
+			"nama_produk": "Sinaran",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/sinaransatu.png?token=AIY3FSTWYFT5U4BK5NIQMI265DOEQ",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Penggabungan beragam material yaitu benang, sisik ikan, dan besi merupakan representasi kekayaan budaya hasil dari pembauran ragam etnis masyarakat Tanjungpinang.",
+			"harga": "520,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 60,
+			"nama_pemilik": "Dekranasda",
+			"nama_produk": "Sinaran",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/sinarandua.png?token=AIY3FSVHZ2POJ7BAQUKO42K65DOEW",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Gonggong adalah biota endemik di Tanjungpinang, potongan limbah cangkang gonggong disematkan dalam produk sebagai representasi kekayaan bahari Tanjungpinang.",
+			"harga": "340,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 61,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Terusan Pualam Bauksit",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/terusanpualambauksit.png?token=AIY3FSUQYT3OHECT2KVONXK65DOZA",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Pendar kehidupan Tanjungpinang bersinar bagai pantulan rembulan pada pulam.",
+			"harga": "380,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 62,
+			"nama_pemilik": "Pak Joyo",
+			"nama_produk": "Terusan Pualam Kunyit",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/terusanpualamkunyit.png?token=AIY3FSUZEGKJ55B76ZEU4S265DOZI",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Pendar kehidupan Tanjungpinang bersinar bagai pantulan rembulan pada pulam.",
+			"harga": "380,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 63,
+			"nama_pemilik": "Betuah Batik",
+			"nama_produk": "Tunjuk Ajar",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Fashion/tunjukajar.png?token=AIY3FSRKRRHZRG7LMEX4MBS65DO4A",
+			"kategori_produk": "Fashion",
+			"deskripsi_produk": "Nilai luhur yang terkandung dalam Gurindam menginspirasi lahirnya scraf ini sebagai pengingat masyarakat luas.",
+			"harga": "130,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 64,
+			"nama_pemilik": "Ikkon",
+			"nama_produk": "Tunjuk Ajar",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/tunjukajar.png?token=AIY3FSXGK4LWWWHORM6JQ7265DPT2",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Nilai luhur yang terkandung dalam Gurindam menginspirasi lahirnya set dekorasi untuk bisa menularkan ke masyarakat luas.",
+			"harga": "340,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 65,
+			"nama_pemilik": "Ijay Meubeler",
+			"nama_produk": "Tunjuk Ajar Rekal",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/tunjukajarrekal.png?token=AIY3FSXEZ4553EUBKSOZZ4S65DPU6",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Tunjuk ajar adalah istilah yang sering diucapkan masyarakat Tanjungpinang tentang petuah hidup yang berisi nilai-nilai luhur.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		},
+		{
+			"id": 66,
+			"nama_pemilik": "Fauzta Edukids",
+			"nama_produk": "Tunjuk Ajar Sajadah",
+			"foto_produk": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Foto-Produk/Home-Living/tunjukajarsajadah.png?token=AIY3FSVEJZR6WDY5IA6LE6265DPUU",
+			"kategori_produk": "Home Living",
+			"deskripsi_produk": "Tunjuk ajar adalah istilah yang sering diucapkan masyarakat Tanjungpinang tentang petuah hidup yang berisi nilai-nilai luhur.",
+			"harga": "100,000.00",
+			"kontak": "-"
+		}
+	]
 }
