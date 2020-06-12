@@ -1,0 +1,25 @@
+{
+	"status": true,
+	"kategoridata": [
+		{
+			"id": 1,
+			"nama_kategori": "Aksesoris",
+			"foto_kategori": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Kategori/aksesoris.png"
+		},
+		{
+			"id": 2,
+			"nama_kategori": "Fashion",
+			"foto_kategori": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Kategori/fashion.png"
+		},
+		{
+			"id": 3,
+			"nama_kategori": "Home Living",
+			"foto_kategori": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Kategori/homeliving.png"
+		},
+		{
+			"id": 4,
+			"nama_kategori": "Tekstil",
+			"foto_kategori": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Kekraf/Kategori/tekstil.png"
+		}
+	]
+}
