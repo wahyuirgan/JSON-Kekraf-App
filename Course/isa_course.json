@@ -1,0 +1,93 @@
+{
+	"status": true,
+	"coursedata": [
+		{
+			"id": 1,
+			"nama_course": "Full Stack Developer (Laravel x Vue.js)",
+			"status_pendaftaran": "Pendaftaran Gratis",
+			"foto_course": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Course/Poster-Course/isa_1.jpg",
+			"kategori_course": "Web Developer",
+			"deskripsi_course": "Kelas ini mengajarkan untuk siswa yang mau mejadi Full Stack Developer Laravel, dan saya tambahkan teknologi Vue.js untuk bagian front end pada Laravel",
+			"online": "true",
+			"offline": "false",
+      "penyaluran": "true"
+		},
+    {
+			"id": 2,
+			"nama_course": "Fullstack Web Developer : MERN",
+			"status_pendaftaran": "Pendaftaran Gratis",
+			"foto_course": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Course/Poster-Course/isa_2.jpg",
+			"kategori_course": "Web Developer",
+			"deskripsi_course": "Fullstack Web Developer : MERN",
+			"online": "true",
+			"offline": "false",
+      "penyaluran": "true"
+		},
+    {
+			"id": 3,
+			"nama_course": "FullStack Web developer",
+			"status_pendaftaran": "Pendaftaran Gratis",
+			"foto_course": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Course/Poster-Course/isa_3.jpg",
+			"kategori_course": "Web Developer",
+			"deskripsi_course": "Kelas laravel tingkat pemula , cocok bagi fresh graduate yang ingin memulai karir di dunia pemograman",
+			"online": "true",
+			"offline": "true",
+      "penyaluran": "true"
+		},
+    {
+			"id": 4,
+			"nama_course": "UI/UX",
+			"status_pendaftaran": "Pendaftaran Gratis",
+			"foto_course": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Course/Poster-Course/isa_4.jpg",
+			"kategori_course": "Designer",
+			"deskripsi_course": "Belajar mulai dari dasar desain dan UI/UX design hingga mampu merancang sebuah website atau aplikasi yang sesungguhnya",
+			"online": "true",
+			"offline": "false",
+      "penyaluran": "true"
+		},
+    {
+			"id": 5,
+			"nama_course": "Android Development Kickstart",
+			"status_pendaftaran": "Pendaftaran Gratis",
+			"foto_course": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Course/Poster-Course/isa_5.jpg",
+			"kategori_course": "Mobile Developer",
+			"deskripsi_course": "Kelas yang tepat untuk memulai karir sebagai sebagai Android Developer!",
+			"online": "true",
+			"offline": "true",
+      "penyaluran": "true"
+		},
+    {
+			"id": 6,
+			"nama_course": "Akuntansi & Perpajakan",
+			"status_pendaftaran": "Pendaftaran Gratis",
+			"foto_course": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Course/Poster-Course/isa_6.jpg",
+			"kategori_course": "Keuangan",
+			"deskripsi_course": "Belajar Akuntansi & Perpajakan yang praktis di industri. Dapatkan Pelatihan, Penyaluran & Pendampingan saat bekerja",
+			"online": "true",
+			"offline": "false",
+      "penyaluran": "true"
+		},
+    {
+			"id": 7,
+			"nama_course": "Codeigniter & Jquery",
+			"status_pendaftaran": "Pendaftaran Gratis",
+			"foto_course": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Course/Poster-Course/isa_7.jpg",
+			"kategori_course": "Web Developer",
+			"deskripsi_course": "Kelas Codeigniter & Jquery tingkat pemula , cocok bagi fresh graduate yang ingin memulai karir di dunia pemograman",
+			"online": "true",
+			"offline": "true",
+      "penyaluran": "true"
+		},
+    {
+			"id": 8,
+			"nama_course": "Backend Springboot & Postgresql",
+			"status_pendaftaran": "Pendaftaran Gratis",
+			"foto_course": "https://raw.githubusercontent.com/wahyuirgan/JSON-Kekraf-App/master/Course/Poster-Course/isa_8.jpg",
+			"kategori_course": "Web Developer",
+			"deskripsi_course": "Belajar membangun backend service dengan menggunakan Springboot & Postgresql.",
+			"online": "true",
+			"offline": "false",
+      "penyaluran": "true"
+		}
+	]
+}
